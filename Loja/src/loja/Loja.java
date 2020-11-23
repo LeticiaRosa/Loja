@@ -18,6 +18,7 @@ public class Loja {
         // TODO code application logic here
         System.out.println(" OLA ");
         
+        
     }
     
 }
