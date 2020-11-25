@@ -37,7 +37,7 @@ public class Loja {
         System.out.println("Gabriel");
         System.out.println("Gabriel");
 
-
+// alteração aqui
        
     }
     
