@@ -5,6 +5,13 @@
  */
 package loja;
 
+import static com.sun.org.apache.xalan.internal.lib.ExsltDatetime.time;
+import connection.Connection;
+import java.text.SimpleDateFormat;
+import java.time.LocalTime;
+import java.time.format.DateTimeFormatter;
+import java.util.Date;
+
 /**
  *
  * @author letic
@@ -18,7 +25,19 @@ public class Loja {
         // TODO code application logic here
         System.out.println(" OLA ");
         
+       connection.Connection con = new Connection();
+       con.getConnection();
         
+       DateTimeFormatter formatter = DateTimeFormatter.ofPattern("HH:mm:ss");
+       LocalTime time = LocalTime.now();
+       // System.out.println(time.format(formatter));
+        
+        SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy hh:mm"); 
+        System.out.println(sdf.format(new Date()));
+       
+
+
+       
     }
     
 }
