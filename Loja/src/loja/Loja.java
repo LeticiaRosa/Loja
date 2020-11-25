@@ -35,6 +35,7 @@ public class Loja {
         SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy hh:mm"); 
         System.out.println(sdf.format(new Date()));
         System.out.println("Gabriel");
+        System.out.println("Gabriel");
 
 
        
